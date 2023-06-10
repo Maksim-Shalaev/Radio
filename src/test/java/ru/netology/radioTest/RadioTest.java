@@ -164,5 +164,11 @@ public class RadioTest {
         Radio radio = new Radio(10);
         Assertions.assertEquals(10, radio.getNumbersOfStations());
     }
+
+    @Test
+    public void shouldCreateTest() {
+        Radio radio = new Radio();
+
+    }
 }
 
